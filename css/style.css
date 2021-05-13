@@ -105,7 +105,7 @@ body{
 	display: block;
 	clear: both;
 }
-#days {
+#day, #hour, #minute, #second {
 	color: #f9f9f9;
 	font-size: 60px;
 	font-weight: 300;
@@ -118,7 +118,7 @@ body{
 	vertical-align: middle;
 }
 @media(max-height:360px) {
-    .digit {
+    #day, #hour, #minute, #second {
         font-size: 30px;
         height: 50px;
         line-height: 50px;
@@ -128,14 +128,14 @@ body{
     #countdown_dashboard{
         min-width: 300px;
     }
-    .digit{
+    #day, #hour, #minute, #second {
         font-size: 30px;
         height: 60px;
         line-height: 60px;
     }
 }
 @media(min-width:560px) and (max-width: 1024px){
-    .digit{
+    #day, #hour, #minute, #second {
         font-size: 40px;
         height: 80px;
         line-height: 80px;
