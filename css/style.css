@@ -105,7 +105,7 @@ body{
 	display: block;
 	clear: both;
 }
-.days {
+#days {
 	color: #f9f9f9;
 	font-size: 60px;
 	font-weight: 300;
